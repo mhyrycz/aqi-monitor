@@ -1,0 +1,17 @@
+{
+  "name": "AirQua",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "babel-preset-react": "^6.24.1",
+    "chart.js": "^2.7.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+    "react_ujs": "^2.4.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}

@@ -1,1 +1,4 @@
-<%= react_component("HelloWorld", { time_labels: Xiaomi.new.time_labels , aqi: Xiaomi.new.aqi }) %>
+<% react_component("HelloWorld", { time_labels: Xiaomi.new.time_labels , aqi: Xiaomi.new.aqi }) %>
+
+<div id="app"></div>
+<%= javascript_pack_tag 'application' %>
